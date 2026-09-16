@@ -12,9 +12,9 @@ I built this project to analyze a real-world e-commerce dataset from Kaggle and 
 -_________________________________________________________________________________________________________________________________
 # Tools Used
 
-- **• SQL_Server (T-SQL) :** Used for writing advanced queries, CTEs, and window functions (ROW_NUMBER, DENSE_RANK, NTILE, LEAD, CUME_DIST).
-- **• Kaggle E-Commerce Dataset :** Structured relational data covering orders, products, and customers.
-- **• GitHub :** Version control and repository documentation.
+- **SQL_Server (T-SQL) :** Used for writing advanced queries, CTEs, and window functions (ROW_NUMBER, DENSE_RANK, NTILE, LEAD, CUME_DIST).
+- ** Kaggle E-Commerce Dataset :** Structured relational data covering orders, products, and customers.
+- **GitHub :** Version control and repository documentation.
 __________________________________________________________________________________________________________________________________________
 # Project Objectives
 
