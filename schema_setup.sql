@@ -26,8 +26,8 @@ CREATE TABLE dbo.customers (
 
 		
 	BULK INSERT dbo.customers
-	FROM 'C:\Downloads\ecommerce_dataset(github)'  --THIS FILE PATH IS DIFFERENT FOR EVERYONE
-	WITH (
+	FROM 'C:\path_to_your_folder\your_filename.csv'  --THIS FILE PATH IS DIFFERENT FOR EVERYONE
+	WITH ( 
 		FORMAT = 'CSV',
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',' ,
@@ -53,8 +53,8 @@ CREATE TABLE dbo.products(
 		);
 
 	BULK INSERT dbo.products
-	FROM 'C:\Downloads\ecommerce_dataset(github)'
-	WITH (
+	FROM 'C:\path_to_your_folder\your_filename.csv'
+	WITH ( 
 		FORMAT = 'CSV',
 		FIRSTROW = 2,
 		FIELDTERMINATOR = ',' ,
@@ -93,7 +93,7 @@ CREATE TABLE dbo.sales(
 
 
 	BULK INSERT dbo.sales
-	FROM 'C:\Downloads\ecommerce_dataset(github)'  --
+	FROM 'C:\path_to_your_folder\your_filename.csv'
 	WITH (
 		FORMAT = 'CSV',
 		FIRSTROW = 2,
